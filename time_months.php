@@ -1,5 +1,5 @@
 <?php
-function myDate($date){
+function Date($date){
     $today = date('Y-m-d');
     $today = strtotime($today);
     $start = strtotime($date);
